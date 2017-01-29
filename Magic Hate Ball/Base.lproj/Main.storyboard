@@ -22,12 +22,6 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Magic HATE Ball" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NFD-8G-rPy">
-                                <rect key="frame" x="129" y="436" width="336" height="96"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="38"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="triangle" translatesAutoresizingMaskIntoConstraints="NO" id="ahx-9s-d0G">
                                 <rect key="frame" x="126" y="150" width="342" height="300"/>
                                 <constraints>
@@ -35,15 +29,6 @@
                                     <constraint firstAttribute="width" constant="342" id="Wdx-fD-MUK"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xcA-eQ-Bbj">
-                                <rect key="frame" x="233" y="540" width="134" height="30"/>
-                                <state key="normal" title="(Change Language)">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="changeLanguage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pi6-ME-I10"/>
-                                </connections>
-                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="NEI-0b-cAG">
                                 <rect key="frame" x="181" y="150" width="239" height="149"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -55,18 +40,21 @@
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Magic HATE Ball" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NFD-8G-rPy">
+                                <rect key="frame" x="129" y="465" width="336" height="96"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="38"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="NEI-0b-cAG" secondAttribute="centerX" id="0CZ-6l-bvH"/>
-                            <constraint firstAttribute="centerX" secondItem="xcA-eQ-Bbj" secondAttribute="centerX" id="0gv-Sd-o1b"/>
                             <constraint firstAttribute="centerY" secondItem="NEI-0b-cAG" secondAttribute="centerY" constant="75.5" id="4Qa-Us-hw0"/>
                             <constraint firstAttribute="centerY" secondItem="NEI-0b-cAG" secondAttribute="centerY" constant="60.5" id="5yP-iA-wVe"/>
                             <constraint firstAttribute="centerY" secondItem="ahx-9s-d0G" secondAttribute="centerY" id="9Rj-6s-nS9"/>
                             <constraint firstAttribute="centerX" secondItem="NEI-0b-cAG" secondAttribute="centerX" id="F62-xc-kJT"/>
-                            <constraint firstItem="xcA-eQ-Bbj" firstAttribute="top" secondItem="NFD-8G-rPy" secondAttribute="bottom" constant="20" id="Jsa-1G-xiA"/>
                             <constraint firstAttribute="centerX" secondItem="ahx-9s-d0G" secondAttribute="centerX" id="KCl-K6-9CL"/>
-                            <constraint firstAttribute="centerX" secondItem="xcA-eQ-Bbj" secondAttribute="centerX" id="UjN-m2-Zp8"/>
                             <constraint firstAttribute="centerX" secondItem="NFD-8G-rPy" secondAttribute="centerX" id="Vwq-AK-0Kf"/>
                             <constraint firstAttribute="centerX" secondItem="NEI-0b-cAG" secondAttribute="centerX" id="XjI-UF-lke"/>
                             <constraint firstAttribute="centerY" secondItem="NEI-0b-cAG" secondAttribute="centerY" constant="68.5" id="Y1e-eV-xiQ"/>
@@ -75,7 +63,7 @@
                             <constraint firstAttribute="centerX" secondItem="NFD-8G-rPy" secondAttribute="centerX" id="lpj-c2-5aR"/>
                             <constraint firstAttribute="centerX" secondItem="Ytp-px-huB" secondAttribute="centerX" id="mDT-ik-x22"/>
                             <constraint firstAttribute="centerX" secondItem="ahx-9s-d0G" secondAttribute="centerX" id="pR5-kT-kWZ"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="xcA-eQ-Bbj" secondAttribute="bottom" constant="30" id="xa4-xT-ijX"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="NFD-8G-rPy" secondAttribute="bottom" constant="40" id="w6a-ua-Q0U"/>
                             <constraint firstAttribute="centerY" secondItem="ahx-9s-d0G" secondAttribute="centerY" id="yfj-zC-nfd"/>
                         </constraints>
                     </view>
